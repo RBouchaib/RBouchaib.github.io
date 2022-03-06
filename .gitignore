@@ -1,0 +1,15 @@
+*.ttf
+*.txt
+*.woff
+*.woff2
+*.css
+*.DS_Store
+*.map
+*.css.map
+*.min.css
+*.min.css.map
+!css/Accueil.css
+!css/Actualités.css
+!css/Activités.css
+*.jpeg
+*.png
