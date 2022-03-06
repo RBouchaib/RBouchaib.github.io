@@ -11,5 +11,11 @@
 !css/Accueil.css
 !css/Actualités.css
 !css/Activités.css
+!css/Bénévoles.css
+!css/NosRuches.css
+!css/NousRecrutons.css
+!css/Contact.css
 *.jpeg
 *.png
+*.pdf
+*.svg
