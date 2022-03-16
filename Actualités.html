@@ -77,40 +77,45 @@
                 <div class="container-fluid">
                     <section class="container-fluid bg-white rounded p-3 m-lg-0">
                         <h2 class="title text-center p-3">Nos Actualités</h2>
-                        <div class="row d-flex ">
-                          <select class="col-5 m-3 float-end form-select" aria-label="Choisir une catégorie">
-                            <option selected>Catégories</option>
-                            <option value="1">Apiculteur</option>
-                            <option value="2">Miel</option>
-                            <option value="3">Ateliers</option>
-                            <option value="4">Produits</option>
-                            <option value="5">Bénévolat</option>
-                          </select>
-                      
-                          <form class="col-6 justify-content-end form-inline d-flex my-2 my-lg-2">
-                            <input class="form-control mx-2 align-text-end" type="search" placeholder="Rechercher par mot clés">
-                            <button class="float-sm-right btn btn-outline-warning my-2 my-sm-0" type="submit">
-                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style=" fill:#000000;">    
-                                <path d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"></path>
-                              </svg>
-                            </button>
-                          </form>
+                        <div class="row justify-content-lg-between">
+                          <div class="col-sm-6 col-lg-3 m-sm-2 m-lg-4">
+                            <select class="m-lg-3 form-select" aria-label="Choisir une catégorie">
+                              <option selected>Catégories</option>
+                              <option value="1">Apiculteur</option>
+                              <option value="2">Miel</option>
+                              <option value="3">Ateliers</option>
+                              <option value="4">Produits</option>
+                              <option value="5">Bénévolat</option>
+                            </select>
+                          </div>
+                          <div class="col-sm-6 col-lg-8 d-flex">
+                            <form class="form-inline my-2 my-lg-2">
+                              <input class="form-control mx-2 " type="search" placeholder="Rechercher par mot clés">
+                              <button class="d-flex flex-row btn btn-outline-warning my-2 my-sm-0" type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style=" fill:#000000;">    
+                                  <path d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"></path>
+                                </svg>
+                              </button>
+                            </form>
+                          </div>
+                         
                         </div>
-                        
-                        <div class="card-deck">
-                              <div class="card-deck m-3">
-                                <article class="col-lg-4 p-0 card">
-                                  <img src="Images/Miel.jpeg" class="card-img-top" alt="Miel.jpeg">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Des centaines d'entrepreneurs sur la voie du succès grâce à notre miel !</h5>
-                                    <p class="card-text">Vous êtes entrepreneurs ? Et plus pprécisement dans la vente d'alimentation ? Et bien sachez que ...</p>
-                                  </div>
-                                  <div class="card-footer">
-                                    <small class="text-muted">Posté il y a 2 jours</small>
-                                    <a class="button btn-warning btn-sm text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
-                                  </div>
-                                </article>
-                                <article class="col-lg-4 p-0 card">
+                        <section class="row m-3">
+                              <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                <article class="card ">
+                                <img src="Images/Miel.jpeg" class="card-img-top" alt="Miel.jpeg">
+                                <div class="card-body">
+                                  <h5 class="card-title">Des centaines d'entrepreneurs sur la voie du succès grâce à notre miel !</h5>
+                                  <p class="card-text">Vous êtes entrepreneurs ? Et plus pprécisement dans la vente d'alimentation ? Et bien sachez que ...</p>
+                                </div>
+                                <div class="card-footer">
+                                  <small class="text-muted">Posté il y a 2 jours</small>
+                                  <a class="button btn btn-outline-warning btn-sm text-dark text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
+                                </div>
+                              </article>
+                              </div>
+                              <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                <article class="card">
                                   <img src="Images/apiculteur.jpeg" class="card-img-top" alt="Apiculteur.jpeg">
                                   <div class="card-body">
                                     <h5 class="card-title">Des milliers de ruches ont été déplacés ces 2 dernières années.</h5>
@@ -118,10 +123,12 @@
                                   </div>
                                   <div class="card-footer">
                                     <small class="text-muted">Posté il y a 7 jours</small>
-                                    <a class="button btn-warning btn-sm text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
+                                    <a class="button btn btn-outline-warning btn-sm text-dark text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
                                   </div>
                                 </article>
-                                <article class="col-lg-3 p-0 card">
+                              </div>
+                              <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                <article class="card">
                                   <img src="Images/Rangée de ruches.jpeg" class="card-img-top" alt="Rangée de ruches.jpeg">
                                   <div class="card-body">
                                     <h5 class="card-title">Les nouvelles ruches sont prêtes !</h5>
@@ -129,44 +136,51 @@
                                   </div>
                                   <div class="card-footer">
                                     <small class="text-muted">Posté il y a 14 jours</small>
-                                    <a class="button btn-warning btn-sm text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
+                                    <a class="button btn btn-outline-warning btn-sm text-dark text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
                                   </div>
                                 </article>
-                                <article class="col-lg-3 p-0 card">
-                                    <img src="Images/Apiculteurs.jpeg" class="card-img-top" alt="Apiculteurs.jpeg">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Les apiculteurs, dévoués au bien-être des abeilles.</h5>
-                                      <p class="card-text">Enfin, il s'agit de centaines de bénévoles qui se rejoignent pour apporter leur aide.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                      <small class="text-muted">Posté il y a 21 jours</small>
-                                      <a class="button btn-warning btn-sm text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
-                                    </div>
-                                </article>
-                                <article class="col-lg-3 p-0 card">
-                                    <img src="Images/miel2.jpeg" class="card-img-top" alt="miel2.jpeg">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Le miel cet allié trop peu exploité.</h5>
-                                      <p class="card-text">Savons nous vraiment ce que nous mangeons, que contient le miel que nous prisons tant ?</p>
-                                    </div>
-                                    <div class="card-footer">
-                                      <small class="text-muted">Posté il y a 23 jours</small>
-                                      <a class="button btn-warning btn-sm text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
-                                    </div>
-                                </article>
-                                <article class="col-lg-3 p-0 card">
-                                    <img src="Images/Atelier.jpeg" class="card-img-top" alt="Atelier.jpeg">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Venez découvrir nos ateliers découverte !</h5>
-                                      <p class="card-text">Nous organisons régulièrement des ateliers découverte à travers la France.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                      <small class="text-muted">Posté il y a 23 jours</small>
-                                      <a class="button btn-warning btn-sm text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
-                                    </div>
-                                </article>
                               </div>
-                          </div>
+                              <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                <article class="card">
+                                  <img src="Images/Apiculteurs.jpeg" class="card-img-top" alt="Apiculteurs.jpeg">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Les apiculteurs, dévoués au bien-être des abeilles.</h5>
+                                    <p class="card-text">Enfin, il s'agit de centaines de bénévoles qui se rejoignent pour apporter leur aide.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Posté il y a 21 jours</small>
+                                    <a class="button btn btn-outline-warning btn-sm text-dark text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
+                                  </div>
+                              </article>
+                              </div>
+                              <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                <article class="card">
+                                  <img src="Images/miel2.jpeg" class="card-img-top" alt="miel2.jpeg">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Le miel cet allié trop peu exploité.</h5>
+                                    <p class="card-text">Savons nous vraiment ce que nous mangeons, que contient le miel que nous prisons tant ?</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Posté il y a 23 jours</small>
+                                    <a class="button btn btn-outline-warning btn-sm text-dark text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
+                                  </div>
+                              </article>
+                              </div>
+                              <div class="col-12 col-md-6 col-lg-3 d-none d-sm-block">
+                                <article class="card">
+                                  <img src="Images/Atelier.jpeg" class="card-img-top" alt="Atelier.jpeg">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Venez découvrir nos ateliers découverte !</h5>
+                                    <p class="card-text">Nous organisons régulièrement des ateliers découverte à travers la France.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Posté il y a 23 jours</small>
+                                    <a class="button btn btn-outline-warning btn-sm text-dark text-decoration-none float-right rounded" href="#" role="button">Lire Plus</a>
+                                  </div>
+                              </article>
+                              </div>
+                        </section>
+                        
                           <nav aria-label="page-navigation">
                             <ul class="pagination justify-content-center">
                               <li class="page-item disabled">
