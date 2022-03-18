@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/NosBénévoles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <title>La Ruche - Bénévoles</title>
-
 </head>
 <body class="body">
     <div class="container-fluid">
@@ -76,50 +76,51 @@
         </header>
         
             <main>
-                <section class="container-fluid d-lg-flex text-justify text-center p-0">
-                    <div class="row">
-                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="Images/volunteer.jpeg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <p>
-                                    Nous travaillons avec plus de 15 500 bénévoles à travers la France et la Suisse.
-                                </p>                              
+                <div class="row">
+                    <section class="container-fluid d-lg-flex text-justify text-center p-0">
+                            <div id="carouselPrésentationBénévoles" class="carousel slide" data-ride="carousel">
+                                <ul class="carousel-indicators">
+                                    <li data-target="#carouselPrésentationBénévoles" data-slide-to="0" class="active" aria-current="true"></li>
+                                    <li data-target="#carouselPrésentationBénévoles" data-slide-to="1"></li>
+                                    <li data-target="#carouselPrésentationBénévoles" data-slide-to="2"></li>
+                                </ul>
+                            <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="1000">
+                                <img src="Images/volunteer.jpeg" alt="Volontaire" width="100%" height="100%">
+                                <div class="carousel-caption" >
+                                    <p class="fs-2 text-end align-middle">
+                                        Nous travaillons avec plus de 15 500 bénévoles à travers la France et la Suisse.
+                                    </p>                              
+                                </div>
                             </div>
-                          </div>
-                          <div class="carousel-item" data-bs-interval="2000">
-                            <img src="Images/honey.jpeg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <p>
-                                    Nous sommes en collaboration avec plus de 500 producteurs.
-                                </p>                              
+                            <div class="carousel-item" data-bs-interval="1000">
+                                <img src="Images/honey.jpeg" alt="Miel" width="100%" height="100%">
+                                <div class="carousel-caption">
+                                    <p class="fs-2 text-end align-middle">
+                                        Nous sommes en collaboration avec plus de 500 producteurs.
+                                    </p>                              
+                                </div>
                             </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="Images/honey-shop.jpeg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <p>
-                                    Nous avons aider plus d'une centaine d'entrepreneurs à réaliser leur projet.
-                                </p>                              
+                            <div class="carousel-item" data-bs-interval="1000">
+                                <img src="Images/honey-shop.jpeg" alt="Boutique de miel" width="100%" height="100%">
+                                <div class="carousel-caption">
+                                    <p class="fs-2 text-end align-middle text-black">
+                                        Nous avons aider plus d'une centaine d'entrepreneurs à réaliser leur projet.
+                                    </p>                              
+                                </div>
                             </div>
-                          </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselPrésentationBénévoles" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselPrésentationBénévoles" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                    </div>
-                    
-                    
-                </section>
+                    </section>
+                </div>
                 <section class="container-fluid row my-3 my-lg-5">
-                    <div class="container col-12 col-lg-6">
+                    <div class="col-12 col-lg-6">
                         <h2 class="text-left">Devenir Bénévole ?</h2>
                         <p class="text-justify mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue odio auctor ipsum semper maximus. Quisque ipsum dolor, viverra et iaculis eget, rhoncus ut sapien. Vestibulum at est egestas, pretium augue vitae, rhoncus diam. Maecenas iaculis tempor mollis. Aliquam semper nisi sit amet diam cursus fringilla. Vivamus rutrum tortor id sem suscipit congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lobortis leo at libero fermentum elementum. Maecenas ultricies lectus eget ligula fringilla vestibulum. Mauris quis facilisis lacus. Nam efficitur mollis aliquam. Maecenas interdum odio in diam eleifend semper. Pellentesque in tellus vel ante commodo sagittis. Sed finibus nisl hendrerit, blandit orci et, finibus purus.
 
@@ -172,8 +173,8 @@
             </div>
         </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
