@@ -8,11 +8,10 @@
 }
 
 html, .body{
-    background-image: url(../Images/Apiculteurs.jpeg);
+    
     font-family: 'eb_garamondregular', serif;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
+   
     margin: 0 auto;
 }
 
