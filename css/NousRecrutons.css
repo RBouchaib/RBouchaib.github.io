@@ -8,7 +8,6 @@
 }
 
 html, .body{
-    background-image: url(../Images/Apiculteurs.jpeg);
     font-family: 'eb_garamondregular', serif;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -41,7 +40,6 @@ h1, a {
     color: #421F06;
     padding: 10px;
 }
-
 
 footer {
     background-color: #F8B200;
