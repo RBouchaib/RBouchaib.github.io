@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bienvenue sur La Ruche, association de la lutte contre l'extinction des abeilles depuis 1996.">
-    <link rel="stylesheet" href="css/NousRecrutons.css">
+    <link rel="stylesheet" href="css/NosBénévoles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
-    <title>La Ruche - Nous recrutons</title>
+    <title>La Ruche - Nous Recrutons</title>
 </head>
 <body class="body">
     <div class="container-fluid">
@@ -40,11 +40,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="Activités.html">Activités</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Bénévoles.html">Bénévoles</a>
-                        </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="NousRecrutons.html">Nous Recrutons<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Bénévoles.html">Bénévoles</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="NosRuches.html">Nos Ruches</a>
@@ -67,7 +67,6 @@
                               <li class="breadcrumb-item"><a class="breadcrumb-link" href="Accueil.html"> Accueil</a></li>
                               <li class="breadcrumb-item"><a class="breadcrumb-link" href="Actualités.html">Actualités</a></li>
                               <li class="breadcrumb-item"><a class="breadcrumb-link" href="Activités.html">Activités</a></li>
-                              <li class="breadcrumb-item"><a class="breadcrumb-link" href="Bénévoles.html">Bénévoles</a></li>
                               <li class="breadcrumb-item active" aria-current="page">Nous Recrutons</li>
                             </ol>
                           </nav>
@@ -77,42 +76,71 @@
         </header>
         
             <main>
-                <section class="row">
-                    <div class="col-12 jumbotron text-end text-justify text-center" style="background-color: rgb(240, 248, 255, 0.6);">
-                        <h2 class="display-4 mb-3">Nous Recrutons</h2>
-                        <p class="lead mb-3 fw-bold">Nous sommes constamment à la recherche de bénévole intéréssé et investie dans la protection des abeilles. Vous avez peur des piqures ? Ne vous inquiétez pas, nous nous occupons de vous former. <br>Dans le contexte actuel, des millions d'abeilles meurent à travers le monde. Il est donc de notre devoir d'agir, nous nous occupons de multiplier le nombre d'abeilles dans nos ruches ainsi que dans les ruches d'autre apiculteurs professionnelles ou particuliers. Sauvons les abeilles !</p>
-                        <a class="contact button btn-warning btn-lg text-decoration-none" href="Contact.html" role="button">Contactez-nous</a>
-                    </div>
-                </section>
-                <section class="row my-3">
-                    <div class="col-12 bg-white">
-                        <h2 class="mb-3 mt-3 ml-lg-3 text-center">Nos Actions</h2>
-                        <div class="row mb-5">
-                            <div class="col-4 p-2 mt-2 text-center bg-warning rounded">
-                                <img class="mb-3" src="Icons/icon-beehive.png">
-                                <p class="mb-4 ml-lg-3 text-justify fs-5">Nous installons des ruches pour les abeilles à travers la France et a Suisse</p>
+                <div class="row">
+                    <section class="container-fluid d-lg-flex text-justify text-center p-0">
+                            <div id="carouselPrésentationBénévoles" class="carousel slide" data-ride="carousel">
+                                <ul class="carousel-indicators">
+                                    <li data-target="#carouselPrésentationBénévoles" data-slide-to="0" class="active" aria-current="true"></li>
+                                    <li data-target="#carouselPrésentationBénévoles" data-slide-to="1"></li>
+                                    <li data-target="#carouselPrésentationBénévoles" data-slide-to="2"></li>
+                                </ul>
+                            <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="1000">
+                                <img class="w-100" src="Images/volunteer.jpeg" alt="Volontaire">
+                                <div class="carousel-caption" >
+                                    <p class="fs-2 text-end">
+                                        Nous travaillons avec plus de 15 500 bénévoles à travers la France et la Suisse.
+                                    </p>                              
+                                </div>
                             </div>
-                            <div class="col-4 p-2 mt-2 text-center">
-                                <img class="mb-3" src="Icons/icon-bee2.png">
-                                <p class="mb-4 ml-lg-3 text-justify fs-5">Nous aidons à déplacer les abeilles ayant fait leur nid dans des propriétés de particulier</p>
+                            <div class="carousel-item" data-bs-interval="1000">
+                                <img class="w-100" src="Images/honey.jpeg" alt="Miel">
+                                <div class="carousel-caption">
+                                    <p class="fs-2 text-start">
+                                        Nous sommes en collaboration avec plus de 500 producteurs.
+                                    </p>                              
+                                </div>
                             </div>
-                            <div class="col-4 p-2 mt-2 text-center bg-warning rounded">
-                                <img class="mb-3" src="Icons/icon-honeybee.png">
-                                <p class="mb-4 ml-lg-3 text-justify fs-5">Nous sensibilisons les citoyens sur le bienfait des abeilles et les nutriments que nous rapporte le miel qu'elles produisent</p>
+                            <div class="carousel-item" data-bs-interval="1000";>
+                                <img class="w-100" src="Images/miel.jpeg" alt="Boutique de miel">
+                                <div class="carousel-caption">
+                                    <p class="fs-2 text-dark text-end">
+                                        Nous avons aider plus d'une centaine d'entrepreneurs à réaliser leur projet.
+                                    </p>                              
+                                </div>
                             </div>
-                            <div class="col-4 p-2 mt-2 text-center">
-                                <img class="mb-3" src="Icons/icon-beekeeper.png">
-                                <p class="mb-4 ml-lg-3 text-justify fs-5">Nous organisons des ateliers et formations pour apprendre aux enfants et aux adultes à manipuler les ruches et les abeilles</p>
                             </div>
-                            <div class="col-4 p-2 mt-2 text-center bg-warning rounded">
-                                <img class="mb-3" src="Icons/icon-honey.png">
-                                <p class="mb-4 ml-lg-3 text-justify fs-5">Nous aidons les jeunes entrepreneurs en participant activement à la vente à moindre coût de miel totalement naturel et riche en antioxydants</p>
-                            </div>
-                            <div class="col-4 p-2 mt-2 text-center">
-                                <img class="mb3" src="Icons/icon-suv.png">
-                                <p class="mb-4 ml-lg-3 text-justify fs-5">Nous transférons des abeilles aux apiculteurs en manque d'abeille</p>
-                            </div>
+                            <a class="carousel-control-prev" href="#carouselPrésentationBénévoles" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselPrésentationBénévoles" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
                         </div>
+                    </section>
+                </div>
+                <section class="container-fluid row my-3 my-lg-5">
+                    <div class="col-12 col-lg-6">
+                        <h2 class="text-left">Devenir Bénévole ?</h2>
+                        <p class="text-justify mt-4 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue odio auctor ipsum semper maximus. Quisque ipsum dolor, viverra et iaculis eget, rhoncus ut sapien. Vestibulum at est egestas, pretium augue vitae, rhoncus diam. Maecenas iaculis tempor mollis. Aliquam semper nisi sit amet diam cursus fringilla. Vivamus rutrum tortor id sem suscipit congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lobortis leo at libero fermentum elementum. Maecenas ultricies lectus eget ligula fringilla vestibulum. Mauris quis facilisis lacus. Nam efficitur mollis aliquam. Maecenas interdum odio in diam eleifend semper. Pellentesque in tellus vel ante commodo sagittis. Sed finibus nisl hendrerit, blandit orci et, finibus purus.
+
+                        </p>
+                    </div>
+                    <div class="container col-12 col-lg-6 p-0 mr-0">
+                        <img src="Images/Apiculteurs.jpeg" alt="apiculteurs" srcset="" class="w-100 rounded">
+                    </div>
+                    
+                </section>
+                <hr>
+                <section class="container-fluid row my-3 my-lg-5">
+                    <div class="container col-12 col-lg-6 p-0 mr-0">
+                        <img src="Images/apiculteurs2.jpeg" alt="apiculteurs" srcset="" class="w-100 rounded">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h2 class="text-left">Rechercher une mission</h2>
+                        <p class="text-justify mt-4 fs-5">Vous souhaitez nous rejoindre ? Savez-vous qu'il existe plus d'une façon de nous aider ? Nous n'avons pas uniquement besoin d'apiculteurs, vous vous y connaissez en administration, secrétariat, transport ou logistique et bien d'autre domaine encore ! Nous avons ce qu'il vous faut : 
+                        <a class="button btn-lg btn-outline-warning text-decoration-none" href="Contact.html" role="button">Nous Contacter</a>
+                        </p>
                     </div>
                 </section>
             </main>          
