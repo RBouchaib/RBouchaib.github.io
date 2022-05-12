@@ -11,7 +11,7 @@ html, .body{
     
     font-family: 'eb_garamondregular', serif;
     background-attachment: fixed;
-   
+    background-color: gainsboro;
     margin: 0 auto;
 }
 
@@ -41,6 +41,49 @@ h1, a {
     padding: 10px;
 }
 
+/* Css pour l'héxagone récupérer ici >> https://www.zonecss.fr/laboratoire-css/les-formes-geometriques.html */
+
+.img-hexagone {
+    box-sizing : border-box;
+    position : relative;
+    width : 121.24356px;
+    height : 85px;
+    background-color : #421F06;
+    margin : 35px 0;
+}
+.img-hexagone:before,
+.img-hexagone:after {
+    content : "";
+    box-sizing : border-box;
+    position : absolute;
+    width : 0;
+    border-left : 60.62178px solid transparent;
+    border-right : 60.62178px solid transparent;
+    }
+.img-hexagone:after {
+    top : 100%;
+    width : 0;
+    border-top : 35px solid #421F06;
+}
+.img-hexagone:before {
+    bottom : 100%;
+    border-bottom : 35px solid #421F06;
+}
+
+#photo1 {
+    background-image: url(../Images/bee\ 11.jpeg);
+    background-size: 100%;
+}
+
+#photo2 {
+    background-image: url(../Images/bee\ 12.jpeg);
+    background-size: 100%;
+}
+
+#photo3 {
+    background-image: url(../Images/bee\ 1.jpeg);
+    background-size: 100%;
+}
 
 footer {
     background-color: #F8B200;
