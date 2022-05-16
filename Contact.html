@@ -79,30 +79,33 @@
             </div>
         </header>
         <main>
-            <section>
-                <div class="col-12">
-                    <h2 class="text-center mb-5">Contact</h2>
-                    <div class="row m-4 p-2">
-                       <div class="col-12 col-lg-4 mb-5">    
-                            <div class="img-hexagone rounded" id="photo1"></div>
-                            <div>
+            <section class="container-fluid">
+                <div class="col-12 d-flex justify-content-around">
+                    <div class="row p-2">
+                       <div class="col-12 col-md-6 col-lg-4 p-3 bg-secondary rounded">    
+                            <div class="d-none d-sm-block img-hexagone rounded" id="photo1"></div>
+                            <div class="img-round d-md-none d-lg-none" id="img1"></div>
                                 <p class="fs-2">Jean Hive</p>
                                 <p>92 rue de la Libellule <br> Moselle FRANCE</p>
                                 <br>
                                 <p>Email : Contact@lalibellule.com</p>
                                 <p>Téléphone : 09 87 54 64 34</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 p-3 bg-secondary rounded">
+                            <div class="d-none d-sm-block img-hexagone rounded" id="photo2"></div>
+                            <div class="img-round d-md-none d-lg-none" id="img2"></div>
+                            <div class="">
+                                <p class="fs-2">Maya L'Abeille</p>
+                                <p>14 Avenue de la Ruche<br> Grenoble FRANCE</p>
+                                <br>
+                                <p>Email : Contact@labeille.com</p>
+                                <p>Téléphone : 03 13 65 78 23</p>
                             </div>
+                            
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
-                            <div class="img-hexagone rounded" id="photo2"></div>
-                            <p class="fs-2">Maya L'Abeille</p>
-                            <p>14 Avenue de la Ruche<br> Grenoble FRANCE</p>
-                            <br>
-                            <p>Email : Contact@labeille.com</p>
-                            <p>Téléphone : 03 13 65 78 23</p>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="img-hexagone rounded" id="photo3"></div>
+                        <div class="col-12 col-md-6 col-lg-4 p-3 bg-secondary rounded">
+                            <div class="d-none d-sm-block img-hexagone rounded" id="photo3"></div>
+                            <div class="img-round d-md-none d-lg-none" id="img3"></div>
                             <p class="fs-2">Guy La Guêpe</p>
                             <p>142 rue des Bourdons<br> Zurich Suisse</p>
                             <br>
@@ -110,7 +113,31 @@
                             <p>Téléphone : +41 3 21 09 83 41</p>
                         </div> 
                     </div>
-                    
+                </div>
+            </section>
+            <hr>
+            <section class="container-fluid p-3 d-flex justify-content-center">
+                <div class="col-lg-6 bg-dark rounded py-2">
+                    <h2 class="text-center text-warning">Contactez-nous</h2>
+                    <form class="m-3 mb-3">
+                        <div class="row">
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Prénom">
+                          </div>
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Nom">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-warning mb-3">Envoyer</button>
+                    </form>
                 </div>
             </section>
         </main>
