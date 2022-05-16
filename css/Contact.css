@@ -85,6 +85,29 @@ h1, a {
     background-size: 100%;
 }
 
+.img-round {
+    position: relative;
+    border-radius: 50%;
+    background-color: #421F06;
+    width: 25%;
+    height: 25%;
+}
+
+#img1 {
+    background-image: url(../Images/bee\ 11.jpeg);
+    background-size: 100%;
+}
+
+#img2 {
+    background-image: url(../Images/bee\ 12.jpeg);
+    background-size: 100%;
+}
+
+#img3 {
+    background-image: url(../Images/bee\ 1.jpeg);
+    background-size: 100%;
+}
+
 footer {
     background-color: #F8B200;
 }
