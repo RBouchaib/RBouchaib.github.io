@@ -1,0 +1,6 @@
+
+
+file:///Users/Bouchaib/Documents/STUDI%20Digital%20Education/COURS/Graduate%20Developer%20Web%20Full%20Stack%20/De%CC%81veloppement%20Front-end/Eval-1/Accueil.html
+
+User-Agent: *
+Allow: /*
