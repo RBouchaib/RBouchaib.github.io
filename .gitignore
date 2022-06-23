@@ -1,6 +1,7 @@
 *.ttf
 *.txt
 *.woff
+*.yml
 *.woff2
 *.css
 *.DS_Store
