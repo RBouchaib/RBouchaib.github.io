@@ -8,7 +8,7 @@
 *.css.map
 *.min.css
 *.min.css.map
-!css/Accueil.css
+!css/style.css
 !css/Actualités.css
 !css/Activités.css
 !css/Bénévoles.css
